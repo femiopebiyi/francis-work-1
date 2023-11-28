@@ -12084,7 +12084,7 @@ pre .code {
   height: 100%;
   background-image: -webkit-linear-gradient(bottom, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%);
   background: rgb(255, 255, 255);
-    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(225, 181, 12, 1) 58%);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(198, 123, 16, 1) 37%);
 }
 
 .header .header-content {
@@ -12118,6 +12118,7 @@ pre .code {
   opacity: .8;
   margin-top: -10px;
   margin-bottom: 20px;
+  font-weight: 600;
 }
 
 .header .header-content .btn {
@@ -12184,11 +12185,13 @@ pre .code {
   min-width: 400px;
   max-width: 400px;
   margin-right: 20px;
+  border-radius: 5px;
 }
 
 .about-img-holder .about-img {
   width: 100%;
   margin-bottom: 15px;
+  border-radius: 7px;
 }
 
 .about-caption {
