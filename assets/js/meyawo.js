@@ -36,3 +36,15 @@ $('#nav-toggle').click(function(){
     $(this).toggleClass('is-active')
     $('ul.nav').toggleClass('show');
 });
+
+
+const check = document.querySelector(".btn-primary")
+
+check.addEventListener("click", function(){
+    
+    let section = document.getElementById("portfolio");
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    
+  }
+})
