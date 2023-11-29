@@ -12096,6 +12096,13 @@ pre .code {
   max-width: 550px;
 }
 
+/* .header-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+} */
+
 .header .header-content .header-title .up {
   font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1300 - 300)));
   font-weight: 500;
@@ -12103,6 +12110,11 @@ pre .code {
   margin-bottom: 5px;
   position: relative;
   display: block;
+}
+
+.down{
+  font-family: "Poppins";
+  color: white;
 }
 
 .header .header-content .header-title .down {
@@ -12217,6 +12229,11 @@ pre .code {
     margin: auto;
     margin-bottom: 20px;
   }
+
+  .myheader{
+    color: #fff;
+    
+  }
 }
 
 /* sections */
@@ -12246,3 +12263,4 @@ pre .code {
 .section-lg {
   padding: 100px 0 !important;
 }
+
