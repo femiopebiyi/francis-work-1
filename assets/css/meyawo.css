@@ -12056,7 +12056,7 @@ pre .code {
 .header {
   position: relative;
   color: white;
-  height: 100vh;
+  height: 50vh;
   min-height: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
