@@ -12070,7 +12070,8 @@ pre .code {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url(../imgs/header.jpg);
+background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(198, 123, 16, 1) 37%);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -12230,10 +12231,24 @@ pre .code {
     margin-bottom: 20px;
   }
 
-  .myheader{
+  /* .myheader{
     color: #fff;
     
+  } */
+  
+  .header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    height: 70%;
+    align-items: flex-start;
+    gap: 1rem;
   }
+
+        .header-content h1{
+          
+        }
 }
 
 /* sections */
