@@ -48,3 +48,11 @@ check.addEventListener("click", function(){
     
   }
 })
+
+const instagram = document.querySelector(".ti-instagram");
+
+instagram.addEventListener("click", function(){
+    let instagramURL = "https://www.instagram.com/jypark7430/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"
+
+    window.open(instagramURL, "_blank")
+})
